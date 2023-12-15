@@ -26,3 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+const projectBtn=document.querySelector("#projectBtn");
+
+projectBtn.addEventListener("click",function(){
+  // scroll to #project
+  document.querySelector("#projects").scrollIntoView({behavior:"smooth"});
+});
