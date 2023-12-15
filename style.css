@@ -355,6 +355,7 @@ p {
   font-style: normal;
   font-weight: 500;
   flex-shrink: 0;
+  max-width: 126px;
 }
 .timeline-education-item-timeline {
   display: flex;
@@ -421,6 +422,7 @@ p {
   font-style: normal;
   font-weight: 500;
   flex-shrink: 0;
+  width: 128px;
 }
 .timeline-work-item-timeline {
   display: flex;
@@ -489,17 +491,17 @@ p {
 }
 .my-skills-content-item {
   padding: 37px 23px;
-  min-height: 200px;
   border-radius: 20px;
   border: 1px solid #E0E0E0;
   background-color: white;
   display: flex;
   flex-direction: column;
+  text-align: center;
   gap: 20px;
 }
 .my-skills-content-item-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 18px;
   flex-direction: column;
   color: #242F65;
@@ -1008,6 +1010,7 @@ p {
   }
   .timeline-education-item-time {
     font-size: 15px;
+    max-width: 95px;
   }
   .timeline-work {
     grid-template-columns: minmax(0, 1fr);
@@ -1015,6 +1018,7 @@ p {
   }
   .timeline-work-item-time {
     font-size: 15px;
+    width: 95px;
   }
 }
 .menu {

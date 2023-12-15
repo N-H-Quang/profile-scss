@@ -395,6 +395,7 @@ p {
         font-style: normal;
         font-weight: 500;
         flex-shrink: 0;
+        max-width: 126px;
       }
 
       &-timeline {
@@ -477,6 +478,7 @@ p {
         font-style: normal;
         font-weight: 500;
         flex-shrink: 0;
+        width: 128px;
       }
 
       &-timeline {
@@ -561,18 +563,17 @@ p {
 
     &-item {
       padding: 37px 23px;
-      min-height: 200px;
       border-radius: 20px;
       border: 1px solid #E0E0E0;
       background-color: white;
-
       display: flex;
       flex-direction: column;
+      text-align: center;
       gap: 20px;
 
       &-header {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         gap: 18px;
         flex-direction: column;
         color: #242F65;
@@ -1189,6 +1190,7 @@ p {
 
     &-item-time {
       font-size: 15px;
+      max-width: 95px;
     }
   }
 
@@ -1198,6 +1200,7 @@ p {
 
     &-item-time {
       font-size: 15px;
+      width:95px;
     }
   }
 
