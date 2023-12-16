@@ -136,6 +136,7 @@ p {
 .banner-topbar {
   position: relative;
   z-index: 2;
+  visibility: hidden;
 }
 .banner-topbar a {
   color: #4f4f4f;
@@ -243,6 +244,7 @@ p {
   justify-content: center;
   align-items: center;
   padding: 80px;
+  visibility: hidden;
 }
 .profile-content {
   display: grid;
@@ -346,6 +348,7 @@ p {
   margin-inline: 48px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+  visibility: hidden;
 }
 .timeline-education-right {
   display: grid;
@@ -455,6 +458,9 @@ p {
   gap: 48px;
   container-type: inline-size;
   container-name: my-skills-block;
+}
+.my-skills-header {
+  visibility: hidden;
 }
 .my-skills-header-content {
   display: flex;
@@ -1130,7 +1136,7 @@ p {
   .contact-us-content-left-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(144px, 1fr));
-    grid-gap: 12px;
+    grid-gap: 3px;
   }
   .contact-us-content-left-content-item {
     max-width: unset;

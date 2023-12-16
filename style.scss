@@ -141,6 +141,7 @@ p {
   &-topbar {
     position: relative;
     z-index: 2;
+    visibility: hidden;
     
     a{
       color: #4f4f4f;
@@ -265,6 +266,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 80px;
+    visibility: hidden;
   }
 
   &-content {
@@ -386,6 +388,7 @@ p {
     margin-inline: 48px;
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+    visibility: hidden;
 
     &-right {
       display: grid;
@@ -559,6 +562,7 @@ p {
         z-index: 1;
       }
     }
+    visibility: hidden;
   }
 
   &-content {
