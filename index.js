@@ -34,6 +34,13 @@ projectBtn.addEventListener("click", function () {
   document.querySelector("#projects").scrollIntoView({ behavior: "smooth" });
 });
 
+const contactBtn = document.querySelector(".button-contact");
+
+contactBtn.addEventListener("click", function () {
+  // scroll to #project
+  document.querySelector("#contact").scrollIntoView({ behavior: "smooth" });
+});
+
 const TL = gsap.timeline();
 
 TL.from(
